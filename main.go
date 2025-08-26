@@ -6,24 +6,25 @@ import (
 )
 
 func main() {
-	var myPhones string
-	var Battery int
-	var Product string
-	var price float64
-	var purchase bool
-
-	// declaring my variables
-	myPhones = "android"
-	Battery = 75
-	Product = "tecno"
-	price = 34.000
-	purchase = true
-
-	// printing my phone details
-	fmt.Println("Product:", Product)
-	fmt.Println("Phone Type:", myPhones)
-	fmt.Println("Battery Percentage:", Battery, "%")
-	fmt.Println("Price: $", price)
-	fmt.Println("Purchased:", purchase)
-	fmt.Println("Current Time:", t.Now())
+	var fullName string
+	var age int
+	var sex bool
+	var number string
+	var color string
+	// declearing my variables
+	fullName = "Naomi Peter"
+	age = 24 + 354
+	//is she female
+	sex = true
+	//her phone number
+	number = "07060909544"
+	//her color
+	color = "chocolate"
+	// let print the information above
+	fmt.Println("fullNane", fullName)
+	fmt.Println(age)
+	fmt.Println(sex)
+	fmt.Println(number)
+	fmt.Println(color)
+	fmt.Println(t.Now())
 }
