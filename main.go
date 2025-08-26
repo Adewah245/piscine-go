@@ -6,25 +6,19 @@ import (
 )
 
 func main() {
-	var fullName string
-	var age int
-	var sex bool
-	var number string
-	var color string
-	// declearing my variables
-	fullName = "Naomi Peter"
-	age = 24 + 354
-	//is she female
-	sex = true
-	//her phone number
-	number = "07060909544"
-	//her color
-	color = "chocolate"
-	// let print the information above
-	fmt.Println("fullNane", fullName)
-	fmt.Println(age)
-	fmt.Println(sex)
-	fmt.Println(number)
-	fmt.Println(color)
-	fmt.Println(t.Now())
+	fmt.Println("my house")
+	fmt.Println("	   ___________________")
+	fmt.Println("	  /```````````````````\\")
+	fmt.Println("	 /`````````````````````\\")
+	fmt.Println("	/```````````````````````\\")
+	fmt.Println("  /¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬¬\\	")
+	fmt.Println("	|  ___		<!>		    |")
+	fmt.Println("	| |   |    				|")
+	fmt.Println("	| |___|	 ______		    |")
+	fmt.Println("	|		|	:  |		|")
+	fmt.Println("	|_______|___:__|________|")
+	fmt.Println()
+	fmt.Println("inalegwu james adah")
+	fmt.Println("my first project ")
+	fmt.Print(t.Now())
 }
